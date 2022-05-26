@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6EA43999283FD38C0033D561 /* ContactListChellengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA43998283FD38C0033D561 /* ContactListChellengeApp.swift */; };
-		6EA4399B283FD38C0033D561 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4399A283FD38C0033D561 /* ContentView.swift */; };
 		6EA4399D283FD38F0033D561 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EA4399C283FD38F0033D561 /* Assets.xcassets */; };
 		6EA439A0283FD38F0033D561 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EA4399F283FD38F0033D561 /* Preview Assets.xcassets */; };
 		6EA439A2283FD38F0033D561 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA439A1283FD38F0033D561 /* Persistence.swift */; };
@@ -16,6 +14,12 @@
 		6EA439AF283FD38F0033D561 /* ContactListChellengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA439AE283FD38F0033D561 /* ContactListChellengeTests.swift */; };
 		6EA439B9283FD38F0033D561 /* ContactListChellengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA439B8283FD38F0033D561 /* ContactListChellengeUITests.swift */; };
 		6EA439BB283FD38F0033D561 /* ContactListChellengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA439BA283FD38F0033D561 /* ContactListChellengeUITestsLaunchTests.swift */; };
+		6EA439C9283FD40B0033D561 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA439C8283FD40B0033D561 /* Contact.swift */; };
+		6EA439CB283FD4790033D561 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA439CA283FD4790033D561 /* AppDelegate.swift */; };
+		6EA439CD283FD4AA0033D561 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA439CC283FD4AA0033D561 /* SceneDelegate.swift */; };
+		6EA439D0283FD4FB0033D561 /* ContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA439CF283FD4FB0033D561 /* ContactListView.swift */; };
+		6EA439D2283FD5330033D561 /* ContactListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA439D1283FD5330033D561 /* ContactListRow.swift */; };
+		6EA439D4283FD54D0033D561 /* ContactDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA439D3283FD54C0033D561 /* ContactDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +41,6 @@
 
 /* Begin PBXFileReference section */
 		6EA43995283FD38C0033D561 /* ContactListChellenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactListChellenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EA43998283FD38C0033D561 /* ContactListChellengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListChellengeApp.swift; sourceTree = "<group>"; };
-		6EA4399A283FD38C0033D561 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6EA4399C283FD38F0033D561 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EA4399F283FD38F0033D561 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6EA439A1283FD38F0033D561 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +50,14 @@
 		6EA439B4283FD38F0033D561 /* ContactListChellengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactListChellengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EA439B8283FD38F0033D561 /* ContactListChellengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListChellengeUITests.swift; sourceTree = "<group>"; };
 		6EA439BA283FD38F0033D561 /* ContactListChellengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListChellengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6EA439C8283FD40B0033D561 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		6EA439CA283FD4790033D561 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6EA439CC283FD4AA0033D561 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6EA439CF283FD4FB0033D561 /* ContactListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListView.swift; sourceTree = "<group>"; };
+		6EA439D1283FD5330033D561 /* ContactListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListRow.swift; sourceTree = "<group>"; };
+		6EA439D3283FD54C0033D561 /* ContactDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsView.swift; sourceTree = "<group>"; };
+		6EA439D5283FD5ED0033D561 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
+		6EA439D7283FD8820033D561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +108,15 @@
 		6EA43997283FD38C0033D561 /* ContactListChellenge */ = {
 			isa = PBXGroup;
 			children = (
-				6EA43998283FD38C0033D561 /* ContactListChellengeApp.swift */,
-				6EA4399A283FD38C0033D561 /* ContentView.swift */,
+				6EA439D7283FD8820033D561 /* Info.plist */,
+				6EA439C7283FD3C90033D561 /* Model */,
+				6EA439CA283FD4790033D561 /* AppDelegate.swift */,
+				6EA439CC283FD4AA0033D561 /* SceneDelegate.swift */,
+				6EA439CE283FD4C50033D561 /* Contact */,
 				6EA4399C283FD38F0033D561 /* Assets.xcassets */,
 				6EA439A1283FD38F0033D561 /* Persistence.swift */,
 				6EA439A3283FD38F0033D561 /* ContactListChellenge.xcdatamodeld */,
+				6EA439D5283FD5ED0033D561 /* info.plist */,
 				6EA4399E283FD38F0033D561 /* Preview Content */,
 			);
 			path = ContactListChellenge;
@@ -131,6 +145,24 @@
 				6EA439BA283FD38F0033D561 /* ContactListChellengeUITestsLaunchTests.swift */,
 			);
 			path = ContactListChellengeUITests;
+			sourceTree = "<group>";
+		};
+		6EA439C7283FD3C90033D561 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6EA439C8283FD40B0033D561 /* Contact.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6EA439CE283FD4C50033D561 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				6EA439CF283FD4FB0033D561 /* ContactListView.swift */,
+				6EA439D1283FD5330033D561 /* ContactListRow.swift */,
+				6EA439D3283FD54C0033D561 /* ContactDetailsView.swift */,
+			);
+			path = Contact;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +295,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EA439D4283FD54D0033D561 /* ContactDetailsView.swift in Sources */,
+				6EA439CD283FD4AA0033D561 /* SceneDelegate.swift in Sources */,
+				6EA439CB283FD4790033D561 /* AppDelegate.swift in Sources */,
 				6EA439A5283FD38F0033D561 /* ContactListChellenge.xcdatamodeld in Sources */,
+				6EA439D0283FD4FB0033D561 /* ContactListView.swift in Sources */,
 				6EA439A2283FD38F0033D561 /* Persistence.swift in Sources */,
-				6EA4399B283FD38C0033D561 /* ContentView.swift in Sources */,
-				6EA43999283FD38C0033D561 /* ContactListChellengeApp.swift in Sources */,
+				6EA439C9283FD40B0033D561 /* Contact.swift in Sources */,
+				6EA439D2283FD5330033D561 /* ContactListRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +465,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ContactListChellenge/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ContactListChellenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -457,6 +494,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ContactListChellenge/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ContactListChellenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
